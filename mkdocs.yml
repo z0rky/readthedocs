@@ -1,0 +1,32 @@
+site_name: RIMSES master in maintenance
+
+# set metadate in header
+site_description: Rimses
+site_author: Koen Meyers
+
+#provides the name for the link to your repository on each page
+repo_name: null
+
+#When set, provides a link to your repository (GitHub, Bitbucket, GitLab, ...) on each page
+# repo_url: https://github.com/example/repository/
+
+nav:
+  # - Home: index.md
+  - Step 1 Create the Rimses database: step1.md
+  - Step 2 Install the Rimses program on a workstation or terminal server: step2.md
+  - Step 3 Set referential integrity on the Rimses database structure : step3.md
+  - Final steps:
+    - Step 4 Install add-ons? : step4.md
+    - Step 5 Verify installation: step5.md
+  - Testing: testing.md
+
+theme:
+  name: material
+  # custom_dir: overrides
+
+# theme: readthedocs
+extra_css: 
+  - stylesheet/extra.css
+
+extra_javascript:
+  - js/extra.js
